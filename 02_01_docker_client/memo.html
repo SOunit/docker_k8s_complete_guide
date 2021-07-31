@@ -31,3 +31,13 @@ docker run busybox ping google.com
 
 <!-- check all container created -->
 docker ps --all
+
+<!-- container lifecycle -->
+1. docker run = docker create + docker start
+
+<!-- docker create sample -->
+docker create hello-world
+
+<!-- docker start sample -->
+<!-- -a is for printout output from container to terminal -->
+docker start -a [container id]
