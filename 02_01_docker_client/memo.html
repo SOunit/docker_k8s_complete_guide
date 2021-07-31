@@ -1,3 +1,24 @@
 <!-- running container command -->
 docker run [image-name]
 
+<!-- command override -->
+1. image has default command which run after creating container
+2. you can override default command by using command below
+docker run [image-name] [command to override]
+
+<!-- command override sample command -->
+docker run busybox echo hi there
+
+<!-- FileSystem Snapshot sample from image -->
+<!-- You can see busybox image has FileSystem Snapshot like bin, dev, etc. -->
+docker run busybox ls
+
+<!-- why use busybox? -->
+because busybox has ls command.
+on the other hand, hello-world image doesn't has such command, 
+lead to error if you execute command below.
+
+docker run hello-world ls
+docker run hello-world echo hi there
+
+<!--  -->
