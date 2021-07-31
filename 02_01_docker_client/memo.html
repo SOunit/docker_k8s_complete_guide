@@ -66,3 +66,10 @@ stop is always recommended.
 stop gives some time to clean up or waiting for finish process.
 kill order just stop, without waiting.
 
+<!-- multi command container -->
+<!-- execute another command inside a container -->
+docker run redis
+docker exec -it [container id] [command]
+docker exec -it [container id] redis-cli
+set myvalue 5
+get myvalue
