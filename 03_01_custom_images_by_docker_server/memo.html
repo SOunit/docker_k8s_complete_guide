@@ -45,4 +45,11 @@ then step will be like below.
 
 <!-- why alpine? -->
 apline is kind of Operating System.
-apline offers apt command, its pre-installed.
+apline offers apk command, its pre-installed.
+apk command is apach package something. package manager of apach.
+
+<!-- the build process in detail -->
+1. install base image, alpine.
+2. create temp container, run command, save image, remove temp container.
+3. create temp container, add deafult command, save image, remove temp container.
+4. You get image with updated FileSystem Snapshot and default command.
