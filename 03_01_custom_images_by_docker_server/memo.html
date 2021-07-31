@@ -56,3 +56,12 @@ apk command is apach package something. package manager of apach.
 
 <!-- rebuild with cache -->
 if docker has image cache, docker-server skip process by using cache. 
+
+<!-- add tag to image -->
+docker build -t [docker id] / [image name] : latest .
+docker build -t hiranokuosaka/redis:latest .
+
+<!-- tag name with no docker id -->
+it is community image. official one.
+redis -> official
+docker-id/redis -> custom image
