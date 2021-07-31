@@ -78,3 +78,22 @@ get myvalue
 -i is for connect terminal to STDIN 
 -t is for formatting output in terminal (technically they do more than that though)
 
+<!-- get command prompt inside a container -->
+<!-- you can get full-control of commands in unix environment -->
+docker run redis
+docker exec -it [contaienr id] sh
+cd /
+ls
+redis-cli
+cttl + c
+
+<!-- stop, kill, exit from sh, shell -->
+cntl + d
+
+<!-- what is sh? -->
+most common command prompt inside a container
+other command prompt is below
+1. bash - mac
+2. power shell - windows
+3. zsh
+4. sh - linux, most popular
