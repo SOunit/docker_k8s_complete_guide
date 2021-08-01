@@ -1,0 +1,4 @@
+// container structure
+1 container for node app
+1 container for redis
+
