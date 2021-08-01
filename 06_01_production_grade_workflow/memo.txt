@@ -1,0 +1,34 @@
+// how to use docker in real app development?
+all move steps below.
+1. Development
+2. Testing
+3. Deployment
+
+// Production Development Workflow
+
+// github
+1. pull feature branch
+2. add change to feature branch
+3. create pull-request to master branch
+// Travis CI
+4. find master branch change
+5. test src
+6. push to AWS Hosting
+
+
+// dev phase
+1. create changes to FEATURE branch.
+2. push changes of FEATURE branch to github.
+3. create pull-request to MASTER branch.
+// test phase
+4. code pushed to Travis CI
+5. tests run
+6. merge PR with MASTER
+// Production phase
+7. code pushed to Travis CI
+8. run tests
+9. Deploy to AWS Elastic Beanstalk
+
+// where's docker!?
+docker is not necessary tool.
+docker makes some development flow EASY.
