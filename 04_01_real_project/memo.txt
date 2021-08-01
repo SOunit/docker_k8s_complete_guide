@@ -4,3 +4,14 @@
 3. build image from dockerfile 
 4. run image as container 
 5. connect to web app from a browser
+
+// alpine is super simple
+only basic linux commands only.
+no npm.
+
+// how to solve no npm?
+there are 2 approaches.
+1. use a different base image which already has npm, node.
+2. install npm, node by RUN command in dockerfile.
+
+// alpine tag means smallest, simplest image.
