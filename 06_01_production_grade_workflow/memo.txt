@@ -41,3 +41,8 @@ docker makes some development flow EASY.
 
 // build command with Dockerfile.dev
 docker build -f Dockerfile.dev .
+
+// react start command
+// -it option for preventing react error
+docker build -f Dockerfile.dev .
+docker run -it -p 3000:3000 [image id]
