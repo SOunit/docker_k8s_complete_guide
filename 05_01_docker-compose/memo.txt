@@ -5,3 +5,12 @@
 // docker compose
 a tool for executing multiple command in docker cli easily
 a tool for creating network for multiple containers easily
+
+// docker-comopse command
+1. docker-compose up
+    same with:
+        docker run my-image
+2. docker-compose up --build
+    same with:
+        docker build .
+        docker run my-image
