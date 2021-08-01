@@ -14,3 +14,7 @@ a tool for creating network for multiple containers easily
     same with:
         docker build .
         docker run my-image
+3. docker-compose up -d
+    start container in background
+4. docker-compose down
+    close all containers
