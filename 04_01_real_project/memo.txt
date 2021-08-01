@@ -15,3 +15,7 @@ there are 2 approaches.
 2. install npm, node by RUN command in dockerfile.
 
 // alpine tag means smallest, simplest image.
+
+// open port
+docker run -p [local port] : [container port] [image id / name]
+docker run -p 8080:8080 hiranokuosaka/simpleweb
