@@ -2,3 +2,6 @@
 1 container for node app
 1 container for redis
 
+// docker compose
+a tool for executing multiple command in docker cli easily
+a tool for creating network for multiple containers easily
