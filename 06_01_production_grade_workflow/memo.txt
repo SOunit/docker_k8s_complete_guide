@@ -38,3 +38,6 @@ docker makes some development flow EASY.
     for test.
 3. npm run build
     for production.
+
+// build command with Dockerfile.dev
+docker build -f Dockerfile.dev .
