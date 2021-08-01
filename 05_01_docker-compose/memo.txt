@@ -18,3 +18,15 @@ a tool for creating network for multiple containers easily
     start container in background
 4. docker-compose down
     close all containers
+
+// exit code
+0 - exit with no error
+1 - exit with error
+2 - with error
+* - with error
+
+// restart-policy
+1. 'no'
+2. always
+3. on-failure
+4. unless-stopped
