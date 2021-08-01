@@ -19,3 +19,12 @@ there are 2 approaches.
 // open port
 docker run -p [local port] : [container port] [image id / name]
 docker run -p 8080:8080 hiranokuosaka/simpleweb
+
+// open sh in node container
+docker run -it hiranokuosaka/simpleweb sh
+
+// set workdir
+this is important to prevent delete existing default folders.
+command for Dockerfile is below.
+
+WORKDIR /usr/app
