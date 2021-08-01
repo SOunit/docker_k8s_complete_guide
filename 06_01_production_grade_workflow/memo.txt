@@ -50,3 +50,7 @@ docker run -it -p 3000:3000 [image id]
 // react startup command with volume
 docker run -it -p 3000:3000 -v /app/node_modules -v $(pwd):/app  [image id]
 docker run -it -p 3000:3000 -v /app/node_modules -v $(pwd):/app  06c14
+
+// run test in docker
+docker build -f Dockerfile.dev .
+docker run -it 35f6815c3 npm run test
