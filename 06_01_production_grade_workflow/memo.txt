@@ -5,7 +5,6 @@ all move steps below.
 3. Deployment
 
 // Production Development Workflow
-
 // github
 1. pull feature branch
 2. add change to feature branch
@@ -14,7 +13,6 @@ all move steps below.
 4. find master branch change
 5. test src
 6. push to AWS Hosting
-
 
 // dev phase
 1. create changes to FEATURE branch.
@@ -32,3 +30,11 @@ all move steps below.
 // where's docker!?
 docker is not necessary tool.
 docker makes some development flow EASY.
+
+// necessary commands for react
+1. npm run start
+    only for development.
+2. npm run test
+    for test.
+3. npm run build
+    for production.
