@@ -28,3 +28,7 @@ this is important to prevent delete existing default folders.
 command for Dockerfile is below.
 
 WORKDIR /usr/app
+
+// avoid unnecessary re-build
+general rule is, make copy command as small as possible
+so that docker-server can use cache.
