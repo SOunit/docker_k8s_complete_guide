@@ -46,3 +46,7 @@ docker build -f Dockerfile.dev .
 // -it option for preventing react error
 docker build -f Dockerfile.dev .
 docker run -it -p 3000:3000 [image id]
+
+// react startup command with volume
+docker run -it -p 3000:3000 -v /app/node_modules -v $(pwd):/app  [image id]
+docker run -it -p 3000:3000 -v /app/node_modules -v $(pwd):/app  06c14
