@@ -1,0 +1,3 @@
+// use AWS to deploy
+Elastic Beanstalk is the service for uploading Docker container.
+it is especially good for 1 container.
