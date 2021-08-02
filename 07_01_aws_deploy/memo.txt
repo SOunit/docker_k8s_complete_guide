@@ -5,6 +5,7 @@ it is especially good for 1 container.
 // Elastic beanstalk mechanism
 it has items below.
 1. loadbalancer
+    - add more container according to trafic
 2. VM Running docker
     - Docker container
     - Our App
