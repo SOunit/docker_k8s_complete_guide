@@ -23,3 +23,10 @@ corrent code is below.
 
 > .travis.yml
 secret_access_key: $AWS_SECRET_KEY
+
+// github development flow
+1. create new branch, feature branch
+2. commit on feature branch
+3. push change to feature branch of github
+4. create pull request from feature to master
+5. travis ci test, and deploy!
