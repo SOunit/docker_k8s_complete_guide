@@ -54,3 +54,18 @@ docker run -it -p 3000:3000 -v /app/node_modules -v $(pwd):/app  06c14
 // run test in docker
 docker build -f Dockerfile.dev .
 docker run -it 35f6815c3 npm run test
+
+// live-updating test
+there's 2 ways to accieve this goal.
+1. use running container
+- docker-compose up
+- docker exec -it [container id] npm run test
+2. add service to docker-compose.yml file
+
+// plus side of live-updating test
+1. interactive
+2. easy to start test
+
+// downside of live-updating test
+1. need to do commands, need id
+2. no interaction
