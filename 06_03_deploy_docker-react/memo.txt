@@ -4,3 +4,11 @@ folder name is frontend.
 
 // github url
 https://github.com/SOunit/docker-react
+
+// deploy workflow
+1. register github repository to travis-ci
+2. add .travis.yml file to root directory of project
+3. push change to github master branch
+4. travis-ci check github
+5. travis-ci run tests given by .travis.yml
+6. 
