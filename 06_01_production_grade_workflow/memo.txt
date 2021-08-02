@@ -69,3 +69,9 @@ there's 2 ways to accieve this goal.
 // downside of live-updating test
 1. need to do commands, need id
 2. no interaction
+
+// build product
+docker build -t hiranokuosaka/frontend:latest .
+
+// run product
+docker run -p 8080:80 hiranokuosaka/frontend
