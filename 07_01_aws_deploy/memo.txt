@@ -9,3 +9,17 @@ it has items below.
 2. VM Running docker
     - Docker container
     - Our App
+
+// setup for deploy
+1. create project in Elastic beanstalk
+2. get bucket name from S3
+2. add config to .travis.yml
+3. add user to IAM
+3. get access key from IAM
+
+// bugfix: error in deploying AWS, Elastic beanstalk
+change the way of passing $AWS_SECRET_KEY
+corrent code is below.
+
+> .travis.yml
+secret_access_key: $AWS_SECRET_KEY
