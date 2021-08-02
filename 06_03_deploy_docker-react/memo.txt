@@ -1,0 +1,6 @@
+this needs different repo, and independent git control.
+so this project is outside of current project.
+folder name is frontend.
+
+// github url
+https://github.com/SOunit/docker-react
