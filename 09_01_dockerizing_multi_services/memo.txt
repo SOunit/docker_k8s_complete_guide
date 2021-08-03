@@ -1,0 +1,4 @@
+// why use enginx?
+1. to offer routing. For different url, different resource access
+2. how about setting open access to react and node? No direct access, because port changes in docker.
+3. why enginx change url to node? so that node app can be independent from url change.
