@@ -1,0 +1,5 @@
+// AWS VPS and Security Groups, lesson 169
+this is difficult, unfamilir. 
+setting for communication between node and redis and postgres.
+we use outside service redis and postgres, come from AWS.
+
